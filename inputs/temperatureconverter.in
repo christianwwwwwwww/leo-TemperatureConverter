@@ -1,4 +1,4 @@
 // The program input for temperatureconverter/src/main.leo
-[main]
-public a: u32 = 1u32;
-b: u32 = 2u32;
+[convert]
+ // Directions: 1 for C to F, 2 for F to C, 3 for C to K, 4 for K to C, 5 for F to K, 6 for K to F
+temp: Conversion = Conversion { initial_value: 32i64, direction: 6u8 };  // For converting 0°C to Fahrenheit
